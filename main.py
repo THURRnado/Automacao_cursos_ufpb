@@ -7,6 +7,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 import pandas as pd
 
+#OBS: PARA VISUALIZAÇÃO DE INFORMACOES MAIS DETALHADAS, O SIGAA POSSUI UMA BASE DE URL PRA CADA CURSO QUE CONSISTE EM:
+# https://sigaa.ufpb.br/sigaa/public/curso/<O QUE ESTÁ NO HREF DA TAG A DE CADA LINHA DA COLUNA>
+
 options = webdriver.ChromeOptions()
 #options.add_argument("--headless") # Habilitar pra deixar a automação rodando em segundo plano
 
